@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Code", "FizzBuzz\FizzBuzz.Code\FizzBuzz.Code.csproj", "{09DFA057-EA90-49EB-A02A-EB2EA5310290}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FizzBuzz", "FizzBuzz", "{A76D454B-88DF-4980-B327-9D05B4CFAF29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz.Tests", "FizzBuzz\FizzBuzz.Tests\FizzBuzz.Tests.csproj", "{EB16BA48-187C-44BA-B197-1B3C722C6138}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FizzBuzzPlus", "FizzBuzzPlus", "{8A47D509-52EF-4AC0-90D6-9C77694711B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzPlus.Code", "FizzBuzzPlus\FizzBuzzPlus.Code\FizzBuzzPlus.Code.csproj", "{2FEB6484-3F03-4BD5-AE3A-F667B7C92240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzzPlus.Tests", "FizzBuzzPlus\FizzBuzzPlus.Tests\FizzBuzzPlus.Tests.csproj", "{A50CC951-3A62-4F35-A04F-1C8C119FAE1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09DFA057-EA90-49EB-A02A-EB2EA5310290}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09DFA057-EA90-49EB-A02A-EB2EA5310290}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09DFA057-EA90-49EB-A02A-EB2EA5310290}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09DFA057-EA90-49EB-A02A-EB2EA5310290}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB16BA48-187C-44BA-B197-1B3C722C6138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB16BA48-187C-44BA-B197-1B3C722C6138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB16BA48-187C-44BA-B197-1B3C722C6138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB16BA48-187C-44BA-B197-1B3C722C6138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FEB6484-3F03-4BD5-AE3A-F667B7C92240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FEB6484-3F03-4BD5-AE3A-F667B7C92240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FEB6484-3F03-4BD5-AE3A-F667B7C92240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FEB6484-3F03-4BD5-AE3A-F667B7C92240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A50CC951-3A62-4F35-A04F-1C8C119FAE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A50CC951-3A62-4F35-A04F-1C8C119FAE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A50CC951-3A62-4F35-A04F-1C8C119FAE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A50CC951-3A62-4F35-A04F-1C8C119FAE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09DFA057-EA90-49EB-A02A-EB2EA5310290} = {A76D454B-88DF-4980-B327-9D05B4CFAF29}
+		{EB16BA48-187C-44BA-B197-1B3C722C6138} = {A76D454B-88DF-4980-B327-9D05B4CFAF29}
+		{2FEB6484-3F03-4BD5-AE3A-F667B7C92240} = {8A47D509-52EF-4AC0-90D6-9C77694711B4}
+		{A50CC951-3A62-4F35-A04F-1C8C119FAE1A} = {8A47D509-52EF-4AC0-90D6-9C77694711B4}
+	EndGlobalSection
+EndGlobal
